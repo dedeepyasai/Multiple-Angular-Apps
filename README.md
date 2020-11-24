@@ -32,9 +32,15 @@ This is a boiler place workspace to create multiple apps in one workspace
 Steps:-
 
 1)ng new MainProject --createApplication="false"
+
 2)cd MainProject
+
 3)ng generate application staff
+
 4)ng generate application agent
+
 5)ng generate application customer
+
 6)To run code individualy ng serve staff/agent/customer
+
 7)ng build --prod --project="staff"/"agent"/"customer"
